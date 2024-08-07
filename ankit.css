@@ -1,0 +1,327 @@
+/* Reset and general styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background: linear-gradient(135deg, #00796b, #004d40);
+    color: white;
+    padding: 2em 0;
+    text-align: center;
+    border-bottom: 2px solid #004d40;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 0;
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+nav {
+    background: #00796b;
+    color: white;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+section {
+    padding: 2em 0;
+}
+
+section h2 {
+    border-bottom: 3px solid #00796b;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+    font-size: 1.8em;
+}
+
+.experience-item {
+    margin-bottom: 2em;
+}
+
+.company-image {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 8px;
+    margin-top: 1em;
+}
+
+.cert-image {
+    width: 120px;
+    height: auto;
+    margin-left: 10px;
+}
+
+.background-image {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 0.5em;
+}
+
+.resume-container {
+    background: #004d40;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.resume-preview {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.resume-image {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.resume-link {
+    display: inline-block;
+    background-color: #00796b;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+}
+
+.resume-link:hover {
+    background-color: #004d40;
+}
+
+footer {
+    background: #00796b;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+.contact p {
+    font-size: 1.2em;
+}
+
+.contact a {
+    color: #00bcd4;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* Reset and general styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background: linear-gradient(135deg, #00796b, #004d40);
+    color: white;
+    padding: 2em 0;
+    text-align: center;
+    border-bottom: 2px solid #004d40;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 0;
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+nav {
+    background: #00796b;
+    color: white;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+section {
+    padding: 2em 0;
+}
+
+section h2 {
+    border-bottom: 3px solid #00796b;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+    font-size: 1.8em;
+}
+
+.experience-item {
+    margin-bottom: 2em;
+}
+
+.company-image {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 8px;
+    margin-top: 1em;
+}
+
+.cert-image {
+    width: 120px;
+    height: auto;
+    margin-left: 10px;
+}
+
+.background-image {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 0.5em;
+}
+
+.resume-container {
+    background: #004d40;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.resume-preview {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.resume-image {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.resume-link {
+    display: inline-block;
+    background-color: #00796b;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+}
+
+.resume-link:hover {
+    background-color: #004d40;
+}
+
+footer {
+    background: #00796b;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+.contact p {
+    font-size: 1.2em;
+}
+
+.contact a {
+    color: #00bcd4;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
